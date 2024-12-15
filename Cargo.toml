@@ -5,3 +5,32 @@ members = [
     "client",
     "integration_test",
 ]
+
+[patch.crates-io.base58ck]
+git = "https://github.com/commonprefix/rust-bitcoin-storopoli"
+branch = "bitvm"
+
+[patch.crates-io.bitcoin]
+git = "https://github.com/commonprefix/rust-bitcoin-storopoli"
+branch = "bitvm"
+features = ["serde"]
+
+[patch.crates-io.bitcoin_hashes]
+git = "https://github.com/commonprefix/rust-bitcoin-storopoli"
+branch = "bitvm"
+
+[patch.crates-io.bitcoin-internals]
+git = "https://github.com/commonprefix/rust-bitcoin-storopoli"
+branch = "bitvm"
+
+[patch.crates-io.bitcoin-io]
+git = "https://github.com/commonprefix/rust-bitcoin-storopoli"
+branch = "bitvm"
+
+[patch.crates-io.bitcoin-units]
+git = "https://github.com/commonprefix/rust-bitcoin-storopoli"
+branch = "bitvm"
+
+[patch.crates-io.bitcoin-primitives]
+git = "https://github.com/commonprefix/rust-bitcoin-storopoli"
+branch = "bitvm"
